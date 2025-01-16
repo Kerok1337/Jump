@@ -1,0 +1,9 @@
+name: Jump
+version: '1.0-SNAPSHOT'
+main: org.test.jump.Jump
+api-version: '1.21'
+commands:
+  createJumpNRun:
+    description: "Create Jump and Run"
+  leaveJumpNRun:
+    description: "Leave Jump and Run"
