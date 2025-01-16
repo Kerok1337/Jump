@@ -57,6 +57,7 @@ public final class Jump extends JavaPlugin {
         // Set random Blocks
         for (int i = 0; i <= length; i++) {
             cc = random.nextInt(20);
+            // Absicherung, dass kein Leitersprung als letzter Sprung kommt, um sicherzustellen, dass keine Goldplatte in der Leiter spawnt
             if (i == length) {
                 cc = 20;
             }
